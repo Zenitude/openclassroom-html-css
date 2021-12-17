@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- En-tête de la page -->
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../../index.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Fonctionnalités évoluées</title>
+	</head>
+	<body> 
+		<div class="retourMenu"><a href="../../index.html">Retour à l'index</a></div>
+		<!-- Contenu de la page -->
+		<form method="post" action="traitement.php">
+			<fieldset>
+				<legend>Informations</legend>
+				<p>
+					<!-- Input de type text -->
+					<label for="pseudo">Pseudo</label>
+					<input type="text" name="pseudo" id="pseudo" maxlength="5" placeholder="Mon pseudo" size="50">
+				</p>
+				<p>
+					<!-- Input de type password -->
+					<label for="mdp">Mot de passe</label>
+					<input type="password" name="mdp" id="mdp">
+				</p>
+				<p>
+					<!-- Input de type tel -->
+					<label for="tel">Téléphone</label>
+					<input type="tel" name="tel" id="tel" placeholder="01.00.00.00.00">
+				</p>
+				<p>
+					<!-- Input de type mail -->
+					<label for="mail">Mail</label>
+					<input type="mail" name="mail" id="mail" placeholder="mon_mail@gmail.com">
+				</p>
+				<p>
+					<!-- Textarea : Zone de texte -->
+					<label for="zone">Zone de texte</label>
+					<textarea name="zone" id="zone" placeholder="Ma grande zone de texte" rows="5" cols="50"></textarea>
+				</p>
+				<p>
+					<!-- Input de type search -->
+					<label for="search">Tu cherches un truc ?</label>
+					<input type="search" name="search" id="search">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Date, heure, semaine, mois</legend>
+				<p>
+					<!-- Input de type date -->
+					<label for="date">Date</label>
+					<input type="date" name="date" id="date">
+				</p>
+				<p>
+					<!-- Input de type time -->
+					<label for="time">Heure</label>
+					<input type="time" name="time" id="time">
+				</p>
+				<p>
+					<!-- Input de type week -->
+					<label for="week">Semaine</label>
+					<input type="week" name="week" id="week">
+				</p>
+				<p>
+					<!-- Input de type month -->
+					<label for="month">Mois</label>
+					<input type="month" name="month" id="month">
+				</p>
+				<p>
+					<!-- Input de type datetime -->
+					<label for="datetime">Date et heure (avec décalage horaire)</label>
+					<input type="datetime" name="datetime" id="datetime">
+				</p>
+				<p>
+					<!-- Input de type datetime-local -->
+					<label for="datetime-local">Date et heure (sans décalage horaire)</label>
+					<input type="datetime-local" name="datetime-local" id="datetime-local">
+				</p>
+				</fieldset>
+
+				<fieldset>
+					<legend>Divers</legend>
+					
+					<p>
+					<!-- Input de type number -->
+					<label for="chiffre">Chiffre</label>
+					<input type="number" name="chiffre" id="chiffre" max="15" min="5" step="2">
+					</p>
+					<p>
+					<!-- Input de type range -->
+					<label for="range">Curseur</label>
+					<input type="range" name="range" id="range">
+					</p>
+					<p>
+					<!-- Input de type color -->
+					<label for="color">Couleur</label>
+					<input type="color" name="color" id="color">
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend>Sélection</legend>
+					<p>
+					<!-- Input de type checkbox -->
+					Cases à cocher<br />
+					<input type="checkbox" name="case1" id="choix 1">
+					<label for="choix 1">Choix 1</label><br />
+					<input type="checkbox" name="case2" id="choix 2">
+					<label for="choix 2">Choix 2</label><br />
+					<input type="checkbox" name="case3" id="choix 3" checked>
+					<label for="choix 3">Choix 3</label>
+				</p>
+					<!-- Input de type radio -->
+					Choisie<br />
+					<input type="radio" name="radio" value="Choix 1">
+					<label>Choix 1</label><br />
+					<input type="radio" name="radio" value="Choix 2">
+					<label>Choix 2</label><br />
+					<input type="radio" name="radio" value="Choix 3" checked>
+					<label>Choix 3</label>
+				</p>
+				<p>
+					<!-- Select & Option -->
+					<label for="select">Sélectionne</label>
+					<select name="valeurs" id="select">
+						<option value="Valeur 1" id="valeur 1">Valeur 1</option>
+						<option value="Valeur 2" id="valeur 2">Valeur 2</option>
+						<option value="Valeur 3" id="valeur 3" selected>Valeur 3</option>
+					</select>
+				</p>
+				<p>
+					<label for="select">Sélectionne avec des groupes </label>
+					<select name="valeurs2" id="select">
+						<optgroup label="Groupe 1">
+							<option value="Valeur 1" id="1">Valeur 1</option>
+							<option value="Valeur 2" id="2" selected>Valeur 2</option>
+							<option value="Valeur 3" id="3" >Valeur 3</option>
+						</optgroup>
+						<optgroup label="Groupe 2">
+							<option value="Valeur 1" id="4">Valeur 4</option>
+							<option value="Valeur 2" id="5">Valeur 5</option>
+							<option value="Valeur 3" id="6" >Valeur 6</option>
+						</optgroup>
+					</select>
+				</p>
+				
+		</fieldset>
+
+		<p>
+			<!-- Input de type submit : Bouton d'envoie du formulaire -->				
+			<input type="submit" name="submit" value="Bouton d'envoie" id="envoyer">
+			</p>
+		</form>
+		
+	</body>
+</html>
