@@ -9,17 +9,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .retourMenu
 {
     position: fixed;
-    top: 25px;
-    right: 25px;
+    bottom: 27px;
+    right: 50px;
     font-size: 1.5rem;
+    z-index: 10;
 }
 
-.titreIndex
+.titreIndex a
 {
     text-align: center;
     color: #fff;
