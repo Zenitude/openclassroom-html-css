@@ -1,0 +1,47 @@
+/*
+@font-face {
+    font-family: 'introrustg-base2line';
+    src: url('Fonts/introrustg-base2line-webfont.woff2') format('woff2'),
+         url('Fonts/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+.forme
+{
+	color: blue;
+	/* Change la couleur du texte */
+	/* nom en anglais (White=Blanc), ou en hexadécimale (#FFFFFF=Blanc) / rgb(0,0,0) */
+}
+
+.autre
+{
+	background-color: green;
+	/* Change la couleur de fond de la page */
+	/* nom en anglais (White=Blanc), ou en hexadécimale (#FFFFFF=Blanc) / rgb(0,0,0) */
+}
+
+body
+{
+	background-image: url("../Images/Fond.png");
+	/* Ajoute une image de fond */
+	background-attachment: fixed;
+	/* Gère le déplacement de l'image */
+	background-repeat: no-repeat;
+	/* Gère la duplication de l'image */
+	background-position: top right;
+	/* Gère la position de l'image, à condition qu'elle ne se répète pas */
+	opacity: 0.5;
+	/* 0 = transparent > 0.1 à 0.9 > 1 = oppaque (par défaut) */
+	
+}
+
+/* 
+body
+{
+	background : url("../Images/Fond.png") fixed no-repeat top right;
+	Permet de tout mélanger en une propriété, séparer par une virgule si plusieurs images
+}
+*/

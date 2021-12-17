@@ -1,0 +1,110 @@
+/* changer l'alignement d'un des textes ; Fait */
+/* appliquer une image de fond à la page ; Fait */
+/* utiliser une police personnalisée via @font-face ; Fait */
+/* définir la bordure d'un élément ; Fait */
+/* changer la couleur d'un des textes ; Fait */
+/* définir l'ombre d'un élément. Fait */
+
+/*
+@font-face {
+    font-family: 'introrustg-base2line';
+    src: url('Fonts/introrustg-base2line-webfont.woff2') format('woff2'),
+         url('Fonts/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+
+/* Ajout d'une image de fond et changement de police d'écriture */
+body
+{
+	background: url("../images/fond.png") no-repeat fixed;
+	font-family: 'introrustg-base2line', Arial, "Arial Black", "Comic Sans MS", "Courier New", Georgia, Impact, "Times New Roman", "Trebuchet MS", Verdana, sans-serif;
+}
+
+/* Titre important */
+h1
+{
+	text-align: center;
+	color: #F5CF83;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+/* Moficiation général des section */
+section
+{
+	border: 2px groove black;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(213, 219, 224, 0.6);
+}
+
+/* Motification des en-tête des sections */
+
+h2
+{
+	color: #F5CF83;
+	font-size: 2.5em;
+	margin-left: 10px;
+	text-shadow: 5px 5px 10px black; 
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+/* Gestion de la photo */
+
+.compétences
+{
+	clear: both;
+}
+
+
+/* Ajout perso */
+
+li
+{
+	margin-bottom: 5px;
+}
+
+/* Mise en forme informations */
+
+.adresse
+{
+	color: #F5CF83;
+	-webkit-text-stroke: 0px;
+	-webkit-text-stroke-color: black;
+}
+
+a
+{
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover
+{
+	color: red;
+}
+
+
+
+/* Mise en forme des années */
+
+.année
+{
+	color: #F5CF83;
+	font-size: 1.5em;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+
+/* Mise en forme des métiers exercés et des nom des formations */
+
+.métier, span
+{
+	font-weight: bold;
+	-webkit-text-stroke: 0px;
+}

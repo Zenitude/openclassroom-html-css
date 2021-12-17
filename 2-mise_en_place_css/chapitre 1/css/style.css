@@ -1,0 +1,68 @@
+/* 
+balise1                    : cible la balise1
+
+balise1, balise 2          : cible la balise1 et la balise 2
+
+*                          : cible toutes les balises
+
+.class                     : cible les balises ayant la class nommé "class" 
+
+#id                        : cible la balise ayant un attribut id nommé "id"
+
+balise1 + balise 2         : cible la première balise2 qui suit la balise1
+
+balise1 balise 2           : cible les balises2 contenu dans des balises1
+
+balise[attribut]           : cible les balises qui ont l'atttribut "attribut"
+
+balise[attribut="valeur"]  : cible les balises qui ont l'atttribut "attribut" dont la valeur vaut "valeur"
+
+balise[attribut*="valeur"] : cible les balises qui ont l'attribut "attribut" dont qui comporte dans sa valeur le terme "valeur"
+*/
+
+/* 
+p
+{
+	color: blue;
+}
+*/
+
+/* 
+h1, p
+{
+	color: blue;
+} 
+*/
+
+/* 
+*
+{
+	color: blue;
+} */
+
+.introduction
+{
+	color: blue;
+	/* font-weight: bold; */
+}
+
+/* 
+#introduction
+{
+	color: blue;
+} 
+*/
+
+/* 
+h1 + p 
+{
+	color: blue;
+} 
+*/
+
+/* 
+h1 em
+{
+	color: blue;
+}
+*/

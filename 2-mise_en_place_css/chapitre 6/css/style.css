@@ -1,0 +1,29 @@
+/* 1 - Afficher le titre h1 en rouge */
+/* 2 - Aggrandissez le titre h1 pour lui donner une taille de 3em */ 
+
+h1
+{
+  color: red;
+  font-size: 3em;
+}
+
+/* 3 - Centrez la figure (image) et sa description */
+figure
+{
+	text-align: center;
+}
+
+/* 4 - Ajoutez une bordure continue de la taille et de la couleur de votre choix autour de la liste à puces */
+/* 5 - Ajoutez une ombre au cadre autour de la liste à puces */
+ul
+{
+  border : 3px gray solid;
+  box-shadow: 5px 5px 5px black;
+}
+
+/* 6 - Affichez les liens en gras lorsqu'on les survole */
+
+a:hover
+{
+  font-weight : bold;
+}

@@ -1,0 +1,48 @@
+/*
+@font-face {
+    font-family: 'introrustg-base2line';
+    src: url('Fonts/introrustg-base2line-webfont.woff2') format('woff2'),
+         url('Fonts/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+p
+{
+	color: #000000;
+	/* change la couleur du texte, on utilise soit un terme précis comme blue red ou un code couleur #000000 qui correspond au noir */
+	font-size: 1.3em;
+	/* change la taille du texte, exprimé en px ou em (recommandé car s'adapte mieux aux divers écrans) ou avec certains terme comme small medium large ... */
+	font-family: 'introrustg-base2line', Impact, "Arial Black", Georgia, "Comic Sans MS", "Courier New", "Trebuchet MS", Arial, Verdana, sans-serif;
+	/* Change la police du texte. Le site utilisera en priorité la police Impact, sinon Arial Black, sinon ... jusqu'à arriver à sans-serif */
+	text-align: justify;
+	/* left (gauche, par défaut), right (droite), center (centrer), justify (justifier, prendre toute la largeur)*/
+}
+
+h1
+{
+	text-align: center;
+}
+
+em
+{
+	text-decoration: underline;
+	/* underline (souligner), overline (surligner), line-through (barrer)*/
+}
+
+.flottant
+{
+	float: left;
+	/* Ex : pour une image, le texte va entourer l'image */
+}
+
+.forme
+{
+	font-weight: bold;
+	/* Met le texte en gras*/
+	clear: left;
+	/* Annule la flotaison de l'image et met le texte après l'image */
+	/* Pour que ça marche float et clear doivent avoir la même information, ou utiliser both pour n'importe quelle situation */	
+}

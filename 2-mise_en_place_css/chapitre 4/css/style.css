@@ -1,0 +1,22 @@
+/*
+@font-face {
+    font-family: 'introrustg-base2line';
+    src: url('Fonts/introrustg-base2line-webfont.woff2') format('woff2'),
+         url('Fonts/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+h1
+{
+	border: 3px blue groove;
+	/* ajoute une bordure d'épaisseur 3px de couleur bleue et de style 3d */
+	border-radius: 10px;
+	/* ajoute un effet d'arrondi sur la bordure */
+	box-shadow: 6px 6px 15px black;
+	/* ajoute une ombre à la bordure */
+	text-shadow: 3px 3px 6px orange;
+	/* ajoute une ombre au texte */
+}
