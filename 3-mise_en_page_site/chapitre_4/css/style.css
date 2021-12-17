@@ -1,0 +1,24 @@
+/* 1 - Une balise sémantique  <nav> manque, ajoutez-la au bon endroit. */
+/* 2 - Retirez les puces de la liste à puces (à vous de trouver comment faire !). Fait */
+/* Placez le header et le menu côte à côte. Fait */
+/* Affichez les paragraphes en justifié, sur 80 % de largeur, et centrez leurs blocs sur la page.*/
+
+
+li
+{
+	list-style-type: none; /* retirer les puces des listes */
+}
+
+#topsection
+{
+	display: flex; /* Header et menu côte à côte */
+}
+
+p
+{
+  text-align:justify; /* paragraphe justifié */
+  width:80%; /* occupe 80% de la largeur */
+  /*margin:auto; centrer les blocs */
+  margin-left:auto; 
+  margin-right:auto;
+}

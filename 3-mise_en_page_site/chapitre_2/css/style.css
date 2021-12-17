@@ -1,0 +1,48 @@
+h1
+{
+	width : 300px;
+	background-color: #CCC;
+}
+
+p
+{
+	width : 50%;
+	border: 1px solid black;
+	text-align: justify;
+	margin: auto;
+	padding: 12px;
+}
+
+/*
+width          : Largeur
+min-width      : Largeur minimale
+max-width      : Largeur maximale 
+
+Height         : Hauteur
+min-height     : Hauteur minimale
+max-height     : Hauteur maximale
+
+margin         : marge extérieure
+margin-top     : marge extérieure en haut
+margin-right   : marge extérieure à droite
+margin-bottom  : marge extérieure en bas
+margin-left    : marge extérieure à gauche
+
+padding        : marge intérieure
+padding-top    : marge intérieure en haut
+padding-right  : marge intérieure à droite
+padding-bottom : marge intérieure en bas
+padding-left   : marge intérieure à gauche
+
+margin : auto; + width:valeur; (centre automatiquement le bloc)
+
+overflow       : Si le texte dépasse vers le bas du cadre , du bloc
+* visible      : par défaut, le texte dépasse
+* hidden       : le texte qui dépasse sera coupé
+* scroll       : barre de défilement
+* auto         : le navigateur décide de ce qu'il doit faire
+
+word-wrap      : Si le texte dépasse sur le côté droit
+* break-word   : force le navigateur à aller à la ligne
+
+*/

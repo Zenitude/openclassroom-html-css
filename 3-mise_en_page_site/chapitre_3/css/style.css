@@ -1,0 +1,33 @@
+#conteneur
+{
+	display: flex;
+	/*flex-direction: row-reverse;*/
+	/*flex-wrap: wrap;*/
+	/*justify-content: space-around;
+	align-items: center;*/
+
+	height: 200px;
+	border: 2px solid #444;
+}
+
+.element
+{
+	width: 150px;
+	height: 100px;
+}
+
+.element:nth-child(1)
+{
+	background-color:orange;
+	order: 3;
+}
+
+.element:nth-child(2)
+{
+	background-color:blue;
+}
+
+.element:nth-child(3)
+{
+	background-color:#ad6;
+}

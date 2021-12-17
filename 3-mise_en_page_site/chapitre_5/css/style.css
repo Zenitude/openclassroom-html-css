@@ -1,0 +1,80 @@
+/* Technique du flottant - float et margin-left - À éviter
+nav
+{
+	float: left;
+	
+	width: 150px;
+	border: 1px solid black;
+}
+
+section
+{
+	clear:both;
+	border: 1px solid blue;
+}
+*/
+
+
+/* Technique avec display - display et vertical-align - À éviter
+
+display : 
+* inline (l'élément se comporte comme un inline) 
+* block (comme un bloc) 
+* none (ne sera pas affiché du tout) 
+* inline-block (comme un inline mais pourra être dimensionné comme un bloc)
+
+vertical-align : 
+* baseline (par défaut)
+* bottom (en bas)
+* top (en haut)
+
+nav
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+	border: 1px solid black;
+}
+
+section
+{
+	display: inline-block; 
+	border: 1px solid blue;
+}
+*/
+
+/* Technique avec position aboslute - position top bottom left right z-index - À éviter car Manière brutale
+
+position: 
+* absolute; active le positionnement libre
+* fixed : l'élément reste visible même si on navigue dans la page
+* relative : permet de décaler l'élément par rapport à sa position initiale
+top : en px, positione à x pixel du haut
+left : en px, positione à x pixel de la gauche
+bottom : en px, positione à x pixel du bas
+right : en px, positione à x pixel de la droite
+z-index : l'élément qui a le nombre le plus élevé sera affiché par dessus
+*/
+
+nav
+{
+	position: relative;
+	bottom: 10px;
+	
+	right: 0px;
+	z-index: 5px;
+	
+
+	width: 150px;
+	border: 1px solid black;
+}
+
+section
+{
+		
+	border: 1px solid blue;
+}
+
+
+
+

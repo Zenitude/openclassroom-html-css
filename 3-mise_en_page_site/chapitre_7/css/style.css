@@ -1,0 +1,116 @@
+/* Éléments global */
+
+body
+{
+	background: url("../images/fond.png");
+	font-family: Arial, "Arial Black", "Comic Sans MS", "Courier New", Georgia, Impact, "Times New Roman", "Trebuchet MS", Verdana, sans-serif;
+}
+
+h2
+{
+	color: #F5CF83;
+	font-size: 1.5em;
+	margin-left: 1%;
+	padding-bottom: 3%;
+	text-shadow: 5px 5px 10px black; 
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: black;
+	text-align: center;
+}
+
+/* Header */
+
+header
+{
+	display: flex;
+	padding-bottom: 150px;
+	flex-direction: column;
+	align-items:center;
+
+
+}
+
+h1
+{
+	text-align: center;
+	color: #F5CF83;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: black;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+figure
+{
+	position: absolute;
+	right: 10px;
+	border:1px solid black;
+	height:200px;
+}
+
+#coordonnees
+{
+	font-size: 1.5em;
+	padding-top:50px;
+	text-align: center;	
+}
+
+/* Corps */
+
+#corps
+{
+	display:flex;
+	padding-top: 10px;
+}
+
+#liseret
+{
+	width: 200px;
+	min-width: 10%;
+	background: url("../images/fond.png") fixed repeat; 
+	border: 2px groove black;
+	border-radius: 10px;
+}
+
+article
+{
+	border: 2px groove black;
+	border-radius: 10px;
+	background-color: rgba(213, 219, 224, 0.6);
+	margin-left: 0.5%;
+}
+
+#competences, #experiences, #formations
+{
+	width: 30%;
+}
+
+li
+{
+	margin-bottom: 5px;
+}
+
+#competences
+{
+	order: 2;
+}
+#experiences
+{
+	order: 1;
+}
+#formations
+{
+	order: 3;
+}
+
