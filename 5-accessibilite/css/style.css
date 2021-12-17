@@ -1,0 +1,152 @@
+/* Global */
+
+	body
+	{
+		font-family: Montserrat, Arial, sans-serif;
+		display: flex;
+		justify-content: space-around;
+		padding: 20px;
+
+		
+		
+	}
+
+	#left, #right
+	{
+		width:47%;
+		border: 1px solid black;
+		padding:10px;
+	}
+
+/* Corps */
+
+	/* Typographie */
+
+		#Typographie h1
+		{
+			font-size: 4em;
+			font-weight: bolder;
+		}
+
+		#Typographie h2
+		{
+			font-size: 3em;
+			font-weight: medium;
+		}
+
+		#Typographie h3
+		{
+			font-size: 1.5em;
+			font-weight: bold;
+		}
+
+		#Typographie p
+		{
+			font-size: 1em;
+			font-weight: regular;
+		}
+
+	/* Couleur */
+
+		#palette_primaire, #palette_secondaire
+		{
+			display: flex;
+			justify-content: row;
+		}
+
+		#palette_primaire div, #palette_secondaire div
+		{
+			margin-right:10px;
+			border-radius: 15px;
+			text-align: center;
+			font-weight: bold;
+
+		}
+
+		/* Primaire */
+
+			.prim1, .prim2, .prim3
+			{
+				width: 100px;
+				height: 100px;
+
+			}
+
+			.prim1
+			{
+				background-color: #BAF5EB;
+			}
+
+			.prim2
+			{
+				background-color: #FBA9A9;
+			}
+
+			.prim3
+			{
+				background-color: rgb(116, 87, 232);
+				color:white;
+			}
+
+		/* Secondaire */
+
+			.sec1, .sec2, .sec3, .sec4, .sec5, .sec6
+			{
+				width: 50px;
+				height: 50px;
+			}
+
+			.sec1
+			{
+				background-color: #C2185B;
+			}
+
+			.sec2
+			{
+				background-color: #EC407A;
+			}
+
+			.sec3
+			{
+				background-color: #F06292;
+			}
+
+			.sec4
+			{
+				background-color: #F48FB1;
+			}
+
+			.sec5
+			{
+				background-color: #F8BBD0;
+			}
+
+			.sec6
+			{
+				background-color: #FCE4EC;
+			}
+
+	/* Buttons */
+
+		#static, #hoverfocus
+		{
+			border:0;
+			width: 20%;
+			height: 50px;
+			border-radius: 20px;
+			font-size: 1.2em;
+		}
+
+		#static
+		{
+			background-color: rgb(194, 24, 91);
+			color: white;
+		}
+
+		#hoverfocus
+		{
+			background-color: rgb(186, 245, 235);
+		}
+
+
+
