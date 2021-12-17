@@ -1,0 +1,18 @@
+/* Paragraphes en bleu par défaut */
+p
+{
+	color: blue;
+}
+
+/* Nouvelles règle si la fênêtre fait au plus 1024px*/
+@media screen and (max-width: 1024px)
+{
+	p
+	{
+		color: red;
+		background-color: black;
+		font-size: 1.2em;
+	}
+}
+
+
