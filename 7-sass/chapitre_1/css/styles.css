@@ -1,0 +1,101 @@
+/* Partie 1 */
+
+.container1 {
+ margin: 6rem;
+ padding: 1.5rem 1.5rem 0 1.5rem;
+ border: 0.1rem solid #D6FFF5; }
+
+
+.form {
+ width: 100%;
+ padding-bottom: 1.5rem;
+}
+
+.form__field label {
+ color: #32dfb3;
+ display: block;
+ font-size: 2rem;
+ line-height: 2rem;
+ padding-top: 1.5rem;
+}
+
+.form__field input {
+ width: 100%;
+ background: #001534;
+ border: 0.1rem solid #15DEA5;
+ padding: 1.5rem;
+ color: #D6FFF5;
+}
+
+.btn 
+{
+ background-color: #001534;
+ color: #15DEA5;
+ padding: 1.5rem;
+}
+
+.btn-wide 
+{
+ width: 100%;
+}
+
+.btn-rounded 
+{
+ border-radius: 3rem;
+}
+
+/* Partie 2 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,900i');
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container2 {
+  height: 100%;
+  align-items: center;
+}
+
+.heading {
+  width: 100%;
+  padding: 1.5rem 2.5rem;
+  margin-bottom: 1.5rem;
+  background: #15DEA5;
+  color: #FFF;
+  font-size: 2rem;
+}
+
+.heading-caps
+{
+  text-transform: uppercase;
+}
+
+/* Partie 3 */
+
+.container3 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+div.btn {
+  cursor: pointer;
+  padding: 1.5rem 2.5rem;
+  margin-bottom: 1.5rem;
+  background: #15DEA5;
+  color: #FFF;
+  font-size: 2rem;
+}
+
+div.btn-pink {
+  background: #EA526F;
+}
+
+
+
